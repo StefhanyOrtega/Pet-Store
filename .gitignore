@@ -29,22 +29,23 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux
+# Creado por https://www.toptal.com/developers/gitignore/api/linux
+# Editar en https://www.toptal.com/developers/gitignore?templates=linux
 
 ### Linux ###
 *~
 
-# temporary files which can be created if a process still has a handle open of a deleted file
+# archivos temporales que se pueden crear si un proceso aún tiene abierto el identificador de un archivo eliminado
 .fuse_hidden*
 
-# KDE directory preferences
-.directory
+# Preferencias del directorio de KDE
+.directorio
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
 
-# .nfs files are created when an open file is removed but is still being accessed
+Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
 .nfs*
 
-# End of https://www.toptal.com/developers/gitignore/api/linux
+# Fin de https://www.toptal.com/developers/gitignore/api/linux
+
