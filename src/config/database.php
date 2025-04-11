@@ -5,7 +5,7 @@ $host = 'aws-0-us-east-1.pooler.supabase.com';
 $port = '6543';
 $dbname = 'postgres';
 $username = 'postgres.kavahciulfgpbuuteehp';
-$password = 'unicesmag@@'
+$password = 'unicesmag@@';
 
 /*
 // Settings database

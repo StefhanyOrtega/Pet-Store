@@ -7,6 +7,11 @@ $lname=$_POST['l_name'];
 $email=$_POST['e_mail'];
 $passw=$_POST['p_assw'];
 
+$hahesd_password= password_hash($passw,PASSWORD_DEFAULT);
+
+
+
+
 $sql_validate_email= "
 select
     count (id) as total 
@@ -25,10 +30,11 @@ if($row ['total'] > 0){
 }else{
     $sql= "INSERT INTO users(
         firstname,lastname,email,password)
-        values ('$fname','$lname','$email','$passw')";
+        values ('$fname','$lname','$email','$hahesd_password')";
         $ans= pg_query ($conn,$sql);
         if ($ans){
-        echo "user has been created succesfully";
+        echo "<script>alert ('User has been created. Go to login!')>/script>";
+       header('Refresh:0;URL=http://localhost/pet.store/src/signin.html')
         }else {
         echo "error";}}}
 
